@@ -14,6 +14,15 @@
 		4C8986062327F86E002858F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8986042327F86E002858F3 /* LaunchScreen.storyboard */; };
 		4C8986112327F86E002858F3 /* ViptunerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8986102327F86E002858F3 /* ViptunerTests.swift */; };
 		4C89861C2327F86E002858F3 /* ViptunerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89861B2327F86E002858F3 /* ViptunerUITests.swift */; };
+		4C89862C2328191A002858F3 /* AppEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89862B2328191A002858F3 /* AppEnvironment.swift */; };
+		4C89862E23281A86002858F3 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89862D23281A86002858F3 /* AppConstants.swift */; };
+		4C898630232822FD002858F3 /* AppNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89862F232822FD002858F3 /* AppNavigation.swift */; };
+		4C8986322328235F002858F3 /* AppColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8986312328235F002858F3 /* AppColors.xcassets */; };
+		4C89863423282583002858F3 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89863323282583002858F3 /* AppColors.swift */; };
+		4C8986362328405B002858F3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8986352328405B002858F3 /* AppRouter.swift */; };
+		6C875ED074A3AD25577684A1 /* Pods_ViptunerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B4670D68631946391A9828 /* Pods_ViptunerTests.framework */; };
+		840A63A7D6E61FD3EB3CEB08 /* Pods_ViptunerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4249D0EA76D56EE111D223B /* Pods_ViptunerUITests.framework */; };
+		97197A16925C0ECEEAAEF7DB /* Pods_Viptuner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A68F1CA322F9F579F20F37 /* Pods_Viptuner.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		103BF67BFDAC08DD55D41106 /* Pods-ViptunerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViptunerUITests.release.xcconfig"; path = "Target Support Files/Pods-ViptunerUITests/Pods-ViptunerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1ACD290BA3DBC6FBD094355C /* Pods-ViptunerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViptunerUITests.debug.xcconfig"; path = "Target Support Files/Pods-ViptunerUITests/Pods-ViptunerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		44D13C9B324D3D524BBF35D0 /* Pods-ViptunerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViptunerTests.debug.xcconfig"; path = "Target Support Files/Pods-ViptunerTests/Pods-ViptunerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C8985F82327F86E002858F3 /* Viptuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viptuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8985FB2327F86E002858F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4C8985FD2327F86E002858F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +59,18 @@
 		4C8986172327F86E002858F3 /* ViptunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViptunerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C89861B2327F86E002858F3 /* ViptunerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViptunerUITests.swift; sourceTree = "<group>"; };
 		4C89861D2327F86E002858F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C89862B2328191A002858F3 /* AppEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEnvironment.swift; sourceTree = "<group>"; };
+		4C89862D23281A86002858F3 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		4C89862F232822FD002858F3 /* AppNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigation.swift; sourceTree = "<group>"; };
+		4C8986312328235F002858F3 /* AppColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppColors.xcassets; sourceTree = "<group>"; };
+		4C89863323282583002858F3 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		4C8986352328405B002858F3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		68A68F1CA322F9F579F20F37 /* Pods_Viptuner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viptuner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE77B86B8F250C3873A0F3E6 /* Pods-ViptunerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViptunerTests.release.xcconfig"; path = "Target Support Files/Pods-ViptunerTests/Pods-ViptunerTests.release.xcconfig"; sourceTree = "<group>"; };
+		C103A36FE29262DA161AEACA /* Pods-Viptuner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viptuner.debug.xcconfig"; path = "Target Support Files/Pods-Viptuner/Pods-Viptuner.debug.xcconfig"; sourceTree = "<group>"; };
+		C4249D0EA76D56EE111D223B /* Pods_ViptunerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViptunerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6B4670D68631946391A9828 /* Pods_ViptunerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViptunerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9DCBF1DC02632604C5006C4 /* Pods-Viptuner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viptuner.release.xcconfig"; path = "Target Support Files/Pods-Viptuner/Pods-Viptuner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97197A16925C0ECEEAAEF7DB /* Pods_Viptuner.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C875ED074A3AD25577684A1 /* Pods_ViptunerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +94,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				840A63A7D6E61FD3EB3CEB08 /* Pods_ViptunerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28FA3A7E83A6775EBA95F73F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C103A36FE29262DA161AEACA /* Pods-Viptuner.debug.xcconfig */,
+				D9DCBF1DC02632604C5006C4 /* Pods-Viptuner.release.xcconfig */,
+				44D13C9B324D3D524BBF35D0 /* Pods-ViptunerTests.debug.xcconfig */,
+				BE77B86B8F250C3873A0F3E6 /* Pods-ViptunerTests.release.xcconfig */,
+				1ACD290BA3DBC6FBD094355C /* Pods-ViptunerUITests.debug.xcconfig */,
+				103BF67BFDAC08DD55D41106 /* Pods-ViptunerUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		4C8985EF2327F86E002858F3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +121,8 @@
 				4C89860F2327F86E002858F3 /* ViptunerTests */,
 				4C89861A2327F86E002858F3 /* ViptunerUITests */,
 				4C8985F92327F86E002858F3 /* Products */,
+				28FA3A7E83A6775EBA95F73F /* Pods */,
+				9625DB228C9F66D52DEFD0FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +139,9 @@
 		4C8985FA2327F86E002858F3 /* Viptuner */ = {
 			isa = PBXGroup;
 			children = (
-				4C8985FB2327F86E002858F3 /* AppDelegate.swift */,
+				4C8986292328168D002858F3 /* App */,
 				4C8985FD2327F86E002858F3 /* ViewController.swift */,
 				4C8985FF2327F86E002858F3 /* Main.storyboard */,
-				4C8986022327F86E002858F3 /* Assets.xcassets */,
-				4C8986042327F86E002858F3 /* LaunchScreen.storyboard */,
-				4C8986072327F86E002858F3 /* Info.plist */,
 			);
 			path = Viptuner;
 			sourceTree = "<group>";
@@ -125,6 +164,41 @@
 			path = ViptunerUITests;
 			sourceTree = "<group>";
 		};
+		4C8986292328168D002858F3 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				4C8985FB2327F86E002858F3 /* AppDelegate.swift */,
+				4C89863323282583002858F3 /* AppColors.swift */,
+				4C89862D23281A86002858F3 /* AppConstants.swift */,
+				4C89862B2328191A002858F3 /* AppEnvironment.swift */,
+				4C89862F232822FD002858F3 /* AppNavigation.swift */,
+				4C8986352328405B002858F3 /* AppRouter.swift */,
+				4C89862A2328177F002858F3 /* Resources */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		4C89862A2328177F002858F3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C8986072327F86E002858F3 /* Info.plist */,
+				4C8986042327F86E002858F3 /* LaunchScreen.storyboard */,
+				4C8986022327F86E002858F3 /* Assets.xcassets */,
+				4C8986312328235F002858F3 /* AppColors.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		9625DB228C9F66D52DEFD0FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68A68F1CA322F9F579F20F37 /* Pods_Viptuner.framework */,
+				D6B4670D68631946391A9828 /* Pods_ViptunerTests.framework */,
+				C4249D0EA76D56EE111D223B /* Pods_ViptunerUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8986202327F86E002858F3 /* Build configuration list for PBXNativeTarget "Viptuner" */;
 			buildPhases = (
+				52FB09B41C4FC4F9C5DEBBBC /* [CP] Check Pods Manifest.lock */,
 				4C8985F42327F86E002858F3 /* Sources */,
 				4C8985F52327F86E002858F3 /* Frameworks */,
 				4C8985F62327F86E002858F3 /* Resources */,
@@ -149,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8986232327F86E002858F3 /* Build configuration list for PBXNativeTarget "ViptunerTests" */;
 			buildPhases = (
+				514E70A17AE6896C00E377C1 /* [CP] Check Pods Manifest.lock */,
 				4C8986082327F86E002858F3 /* Sources */,
 				4C8986092327F86E002858F3 /* Frameworks */,
 				4C89860A2327F86E002858F3 /* Resources */,
@@ -167,6 +243,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4C8986262327F86E002858F3 /* Build configuration list for PBXNativeTarget "ViptunerUITests" */;
 			buildPhases = (
+				4ADE799E008C9C59BDB16980 /* [CP] Check Pods Manifest.lock */,
 				4C8986132327F86E002858F3 /* Sources */,
 				4C8986142327F86E002858F3 /* Frameworks */,
 				4C8986152327F86E002858F3 /* Resources */,
@@ -230,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8986062327F86E002858F3 /* LaunchScreen.storyboard in Resources */,
+				4C8986322328235F002858F3 /* AppColors.xcassets in Resources */,
 				4C8986032327F86E002858F3 /* Assets.xcassets in Resources */,
 				4C8986012327F86E002858F3 /* Main.storyboard in Resources */,
 			);
@@ -251,13 +329,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4ADE799E008C9C59BDB16980 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViptunerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		514E70A17AE6896C00E377C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ViptunerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52FB09B41C4FC4F9C5DEBBBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Viptuner-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4C8985F42327F86E002858F3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4C89862C2328191A002858F3 /* AppEnvironment.swift in Sources */,
 				4C8985FE2327F86E002858F3 /* ViewController.swift in Sources */,
+				4C898630232822FD002858F3 /* AppNavigation.swift in Sources */,
+				4C89863423282583002858F3 /* AppColors.swift in Sources */,
+				4C8986362328405B002858F3 /* AppRouter.swift in Sources */,
 				4C8985FC2327F86E002858F3 /* AppDelegate.swift in Sources */,
+				4C89862E23281A86002858F3 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,17 +582,21 @@
 		};
 		4C8986212327F86E002858F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C103A36FE29262DA161AEACA /* Pods-Viptuner.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9KPUHUQUF7;
-				INFOPLIST_FILE = Viptuner/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Viptuner/App/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.Viptuner;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.viptuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,17 +604,20 @@
 		};
 		4C8986222327F86E002858F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9DCBF1DC02632604C5006C4 /* Pods-Viptuner.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 9KPUHUQUF7;
-				INFOPLIST_FILE = Viptuner/Info.plist;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/Viptuner/App/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.Viptuner;
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.viptuner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,6 +625,7 @@
 		};
 		4C8986242327F86E002858F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D13C9B324D3D524BBF35D0 /* Pods-ViptunerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +647,7 @@
 		};
 		4C8986252327F86E002858F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE77B86B8F250C3873A0F3E6 /* Pods-ViptunerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +669,7 @@
 		};
 		4C8986272327F86E002858F3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1ACD290BA3DBC6FBD094355C /* Pods-ViptunerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +690,7 @@
 		};
 		4C8986282327F86E002858F3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103BF67BFDAC08DD55D41106 /* Pods-ViptunerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
