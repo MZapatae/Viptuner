@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C8985FC2327F86E002858F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8985FB2327F86E002858F3 /* AppDelegate.swift */; };
+		4C8985FE2327F86E002858F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8985FD2327F86E002858F3 /* ViewController.swift */; };
+		4C8986012327F86E002858F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8985FF2327F86E002858F3 /* Main.storyboard */; };
+		4C8986032327F86E002858F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8986022327F86E002858F3 /* Assets.xcassets */; };
+		4C8986062327F86E002858F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8986042327F86E002858F3 /* LaunchScreen.storyboard */; };
+		4C8986112327F86E002858F3 /* ViptunerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8986102327F86E002858F3 /* ViptunerTests.swift */; };
+		4C89861C2327F86E002858F3 /* ViptunerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89861B2327F86E002858F3 /* ViptunerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C89860D2327F86E002858F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C8985F02327F86E002858F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C8985F72327F86E002858F3;
+			remoteInfo = Viptuner;
+		};
+		4C8986182327F86E002858F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C8985F02327F86E002858F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C8985F72327F86E002858F3;
+			remoteInfo = Viptuner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C8985F82327F86E002858F3 /* Viptuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viptuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8985FB2327F86E002858F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C8985FD2327F86E002858F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C8986002327F86E002858F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C8986022327F86E002858F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C8986052327F86E002858F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C8986072327F86E002858F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C89860C2327F86E002858F3 /* ViptunerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViptunerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C8986102327F86E002858F3 /* ViptunerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViptunerTests.swift; sourceTree = "<group>"; };
+		4C8986122327F86E002858F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C8986172327F86E002858F3 /* ViptunerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViptunerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C89861B2327F86E002858F3 /* ViptunerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViptunerUITests.swift; sourceTree = "<group>"; };
+		4C89861D2327F86E002858F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C8985F52327F86E002858F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8986092327F86E002858F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8986142327F86E002858F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C8985EF2327F86E002858F3 = {
+			isa = PBXGroup;
+			children = (
+				4C8985FA2327F86E002858F3 /* Viptuner */,
+				4C89860F2327F86E002858F3 /* ViptunerTests */,
+				4C89861A2327F86E002858F3 /* ViptunerUITests */,
+				4C8985F92327F86E002858F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C8985F92327F86E002858F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C8985F82327F86E002858F3 /* Viptuner.app */,
+				4C89860C2327F86E002858F3 /* ViptunerTests.xctest */,
+				4C8986172327F86E002858F3 /* ViptunerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C8985FA2327F86E002858F3 /* Viptuner */ = {
+			isa = PBXGroup;
+			children = (
+				4C8985FB2327F86E002858F3 /* AppDelegate.swift */,
+				4C8985FD2327F86E002858F3 /* ViewController.swift */,
+				4C8985FF2327F86E002858F3 /* Main.storyboard */,
+				4C8986022327F86E002858F3 /* Assets.xcassets */,
+				4C8986042327F86E002858F3 /* LaunchScreen.storyboard */,
+				4C8986072327F86E002858F3 /* Info.plist */,
+			);
+			path = Viptuner;
+			sourceTree = "<group>";
+		};
+		4C89860F2327F86E002858F3 /* ViptunerTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C8986102327F86E002858F3 /* ViptunerTests.swift */,
+				4C8986122327F86E002858F3 /* Info.plist */,
+			);
+			path = ViptunerTests;
+			sourceTree = "<group>";
+		};
+		4C89861A2327F86E002858F3 /* ViptunerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C89861B2327F86E002858F3 /* ViptunerUITests.swift */,
+				4C89861D2327F86E002858F3 /* Info.plist */,
+			);
+			path = ViptunerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C8985F72327F86E002858F3 /* Viptuner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8986202327F86E002858F3 /* Build configuration list for PBXNativeTarget "Viptuner" */;
+			buildPhases = (
+				4C8985F42327F86E002858F3 /* Sources */,
+				4C8985F52327F86E002858F3 /* Frameworks */,
+				4C8985F62327F86E002858F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Viptuner;
+			productName = Viptuner;
+			productReference = 4C8985F82327F86E002858F3 /* Viptuner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C89860B2327F86E002858F3 /* ViptunerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8986232327F86E002858F3 /* Build configuration list for PBXNativeTarget "ViptunerTests" */;
+			buildPhases = (
+				4C8986082327F86E002858F3 /* Sources */,
+				4C8986092327F86E002858F3 /* Frameworks */,
+				4C89860A2327F86E002858F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C89860E2327F86E002858F3 /* PBXTargetDependency */,
+			);
+			name = ViptunerTests;
+			productName = ViptunerTests;
+			productReference = 4C89860C2327F86E002858F3 /* ViptunerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C8986162327F86E002858F3 /* ViptunerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C8986262327F86E002858F3 /* Build configuration list for PBXNativeTarget "ViptunerUITests" */;
+			buildPhases = (
+				4C8986132327F86E002858F3 /* Sources */,
+				4C8986142327F86E002858F3 /* Frameworks */,
+				4C8986152327F86E002858F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C8986192327F86E002858F3 /* PBXTargetDependency */,
+			);
+			name = ViptunerUITests;
+			productName = ViptunerUITests;
+			productReference = 4C8986172327F86E002858F3 /* ViptunerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C8985F02327F86E002858F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = MZapataE;
+				TargetAttributes = {
+					4C8985F72327F86E002858F3 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					4C89860B2327F86E002858F3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4C8985F72327F86E002858F3;
+					};
+					4C8986162327F86E002858F3 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4C8985F72327F86E002858F3;
+					};
+				};
+			};
+			buildConfigurationList = 4C8985F32327F86E002858F3 /* Build configuration list for PBXProject "Viptuner" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C8985EF2327F86E002858F3;
+			productRefGroup = 4C8985F92327F86E002858F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C8985F72327F86E002858F3 /* Viptuner */,
+				4C89860B2327F86E002858F3 /* ViptunerTests */,
+				4C8986162327F86E002858F3 /* ViptunerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C8985F62327F86E002858F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8986062327F86E002858F3 /* LaunchScreen.storyboard in Resources */,
+				4C8986032327F86E002858F3 /* Assets.xcassets in Resources */,
+				4C8986012327F86E002858F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C89860A2327F86E002858F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8986152327F86E002858F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C8985F42327F86E002858F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8985FE2327F86E002858F3 /* ViewController.swift in Sources */,
+				4C8985FC2327F86E002858F3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8986082327F86E002858F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C8986112327F86E002858F3 /* ViptunerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C8986132327F86E002858F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C89861C2327F86E002858F3 /* ViptunerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C89860E2327F86E002858F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C8985F72327F86E002858F3 /* Viptuner */;
+			targetProxy = 4C89860D2327F86E002858F3 /* PBXContainerItemProxy */;
+		};
+		4C8986192327F86E002858F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C8985F72327F86E002858F3 /* Viptuner */;
+			targetProxy = 4C8986182327F86E002858F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C8985FF2327F86E002858F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C8986002327F86E002858F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C8986042327F86E002858F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C8986052327F86E002858F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C89861E2327F86E002858F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4C89861F2327F86E002858F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C8986212327F86E002858F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KPUHUQUF7;
+				INFOPLIST_FILE = Viptuner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.Viptuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C8986222327F86E002858F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KPUHUQUF7;
+				INFOPLIST_FILE = Viptuner/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.Viptuner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4C8986242327F86E002858F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KPUHUQUF7;
+				INFOPLIST_FILE = ViptunerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.ViptunerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viptuner.app/Viptuner";
+			};
+			name = Debug;
+		};
+		4C8986252327F86E002858F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KPUHUQUF7;
+				INFOPLIST_FILE = ViptunerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.ViptunerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Viptuner.app/Viptuner";
+			};
+			name = Release;
+		};
+		4C8986272327F86E002858F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KPUHUQUF7;
+				INFOPLIST_FILE = ViptunerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.ViptunerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Viptuner;
+			};
+			name = Debug;
+		};
+		4C8986282327F86E002858F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9KPUHUQUF7;
+				INFOPLIST_FILE = ViptunerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = cl.mzapatae.ViptunerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Viptuner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C8985F32327F86E002858F3 /* Build configuration list for PBXProject "Viptuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C89861E2327F86E002858F3 /* Debug */,
+				4C89861F2327F86E002858F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8986202327F86E002858F3 /* Build configuration list for PBXNativeTarget "Viptuner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8986212327F86E002858F3 /* Debug */,
+				4C8986222327F86E002858F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8986232327F86E002858F3 /* Build configuration list for PBXNativeTarget "ViptunerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8986242327F86E002858F3 /* Debug */,
+				4C8986252327F86E002858F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C8986262327F86E002858F3 /* Build configuration list for PBXNativeTarget "ViptunerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8986272327F86E002858F3 /* Debug */,
+				4C8986282327F86E002858F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C8985F02327F86E002858F3 /* Project object */;
+}
