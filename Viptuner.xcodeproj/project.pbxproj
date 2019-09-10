@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4C8985FC2327F86E002858F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8985FB2327F86E002858F3 /* AppDelegate.swift */; };
-		4C8985FE2327F86E002858F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8985FD2327F86E002858F3 /* ViewController.swift */; };
-		4C8986012327F86E002858F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8985FF2327F86E002858F3 /* Main.storyboard */; };
 		4C8986032327F86E002858F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8986022327F86E002858F3 /* Assets.xcassets */; };
 		4C8986062327F86E002858F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C8986042327F86E002858F3 /* LaunchScreen.storyboard */; };
 		4C8986112327F86E002858F3 /* ViptunerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8986102327F86E002858F3 /* ViptunerTests.swift */; };
@@ -20,6 +18,7 @@
 		4C8986322328235F002858F3 /* AppColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C8986312328235F002858F3 /* AppColors.xcassets */; };
 		4C89863423282583002858F3 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89863323282583002858F3 /* AppColors.swift */; };
 		4C8986362328405B002858F3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8986352328405B002858F3 /* AppRouter.swift */; };
+		4C89863B232846F5002858F3 /* NetworkProviderContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89863A232846F5002858F3 /* NetworkProviderContract.swift */; };
 		6C875ED074A3AD25577684A1 /* Pods_ViptunerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B4670D68631946391A9828 /* Pods_ViptunerTests.framework */; };
 		840A63A7D6E61FD3EB3CEB08 /* Pods_ViptunerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4249D0EA76D56EE111D223B /* Pods_ViptunerUITests.framework */; };
 		97197A16925C0ECEEAAEF7DB /* Pods_Viptuner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A68F1CA322F9F579F20F37 /* Pods_Viptuner.framework */; };
@@ -48,8 +47,6 @@
 		44D13C9B324D3D524BBF35D0 /* Pods-ViptunerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViptunerTests.debug.xcconfig"; path = "Target Support Files/Pods-ViptunerTests/Pods-ViptunerTests.debug.xcconfig"; sourceTree = "<group>"; };
 		4C8985F82327F86E002858F3 /* Viptuner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Viptuner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C8985FB2327F86E002858F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4C8985FD2327F86E002858F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		4C8986002327F86E002858F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4C8986022327F86E002858F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C8986052327F86E002858F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C8986072327F86E002858F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +62,7 @@
 		4C8986312328235F002858F3 /* AppColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = AppColors.xcassets; sourceTree = "<group>"; };
 		4C89863323282583002858F3 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		4C8986352328405B002858F3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		4C89863A232846F5002858F3 /* NetworkProviderContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProviderContract.swift; sourceTree = "<group>"; };
 		68A68F1CA322F9F579F20F37 /* Pods_Viptuner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viptuner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE77B86B8F250C3873A0F3E6 /* Pods-ViptunerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViptunerTests.release.xcconfig"; path = "Target Support Files/Pods-ViptunerTests/Pods-ViptunerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C103A36FE29262DA161AEACA /* Pods-Viptuner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viptuner.debug.xcconfig"; path = "Target Support Files/Pods-Viptuner/Pods-Viptuner.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,8 +138,8 @@
 			isa = PBXGroup;
 			children = (
 				4C8986292328168D002858F3 /* App */,
-				4C8985FD2327F86E002858F3 /* ViewController.swift */,
-				4C8985FF2327F86E002858F3 /* Main.storyboard */,
+				4C898638232846BD002858F3 /* Modules */,
+				4C898637232846AA002858F3 /* Providers */,
 			);
 			path = Viptuner;
 			sourceTree = "<group>";
@@ -187,6 +185,29 @@
 				4C8986312328235F002858F3 /* AppColors.xcassets */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		4C898637232846AA002858F3 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				4C898639232846E3002858F3 /* NetworkProvider */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		4C898638232846BD002858F3 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		4C898639232846E3002858F3 /* NetworkProvider */ = {
+			isa = PBXGroup;
+			children = (
+				4C89863A232846F5002858F3 /* NetworkProviderContract.swift */,
+			);
+			path = NetworkProvider;
 			sourceTree = "<group>";
 		};
 		9625DB228C9F66D52DEFD0FC /* Frameworks */ = {
@@ -309,7 +330,6 @@
 				4C8986062327F86E002858F3 /* LaunchScreen.storyboard in Resources */,
 				4C8986322328235F002858F3 /* AppColors.xcassets in Resources */,
 				4C8986032327F86E002858F3 /* Assets.xcassets in Resources */,
-				4C8986012327F86E002858F3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,11 +424,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C89862C2328191A002858F3 /* AppEnvironment.swift in Sources */,
-				4C8985FE2327F86E002858F3 /* ViewController.swift in Sources */,
 				4C898630232822FD002858F3 /* AppNavigation.swift in Sources */,
 				4C89863423282583002858F3 /* AppColors.swift in Sources */,
 				4C8986362328405B002858F3 /* AppRouter.swift in Sources */,
 				4C8985FC2327F86E002858F3 /* AppDelegate.swift in Sources */,
+				4C89863B232846F5002858F3 /* NetworkProviderContract.swift in Sources */,
 				4C89862E23281A86002858F3 /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -445,14 +465,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		4C8985FF2327F86E002858F3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4C8986002327F86E002858F3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		4C8986042327F86E002858F3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
