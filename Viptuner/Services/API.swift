@@ -8,12 +8,14 @@
 
 enum API {
     
+    private static let itunesBaseUrl = "https://itunes.apple.com"
+
     static func searchArtist(query: String) -> Endpoint<SearchResponse> {
-        return Endpoint<SearchResponse>(method: .get, path: "/search?term=\(query)&entity=musicArtist&attribute=artistTerm&media=music")
+        return Endpoint<SearchResponse>(method: .get, path: itunesBaseUrl + "/search?term=\(query)&entity=musicArtist&attribute=artistTerm&media=music")
     }
     
     static func lookupArtist(id: Int) -> Endpoint<LookupResponse> {
-        return Endpoint<LookupResponse>(method: .get, path: "/lookup?amgArtistId=\(id)&entity=song&limit=5&sort=recent")
+        return Endpoint<LookupResponse>(method: .get, path: itunesBaseUrl + "/lookup?amgArtistId=\(id)&entity=song&limit=5&sort=recent")
     }
     
 }

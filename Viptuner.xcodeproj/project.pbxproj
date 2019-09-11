@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,9 +23,11 @@
 		4CAB3BE423292DE6006E5891 /* LookupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB3BE323292DE6006E5891 /* LookupResponse.swift */; };
 		4CAB3BE623292DF2006E5891 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB3BE523292DF2006E5891 /* SearchResponse.swift */; };
 		4CAB3BE823293D35006E5891 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB3BE723293D35006E5891 /* Endpoint.swift */; };
-		6C875ED074A3AD25577684A1 /* Pods_ViptunerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B4670D68631946391A9828 /* Pods_ViptunerTests.framework */; };
-		840A63A7D6E61FD3EB3CEB08 /* Pods_ViptunerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4249D0EA76D56EE111D223B /* Pods_ViptunerUITests.framework */; };
+		4CAB3BEB23294762006E5891 /* AlamofireNetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB3BEA23294762006E5891 /* AlamofireNetworkProvider.swift */; };
+		4CAB3BF023294ECE006E5891 /* ObservableType+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB3BEF23294ECE006E5891 /* ObservableType+Extensions.swift */; };
+		77E85B6CB5FD63EC672DC128 /* libPods-ViptunerUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C0B166610FDDBC75D0E4B2 /* libPods-ViptunerUITests.a */; };
 		97197A16925C0ECEEAAEF7DB /* Pods_Viptuner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68A68F1CA322F9F579F20F37 /* Pods_Viptuner.framework */; };
+		A710AD68488DFA1D7F898870 /* libPods-ViptunerTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D6811D6FA0E2D3A5D8417D1D /* libPods-ViptunerTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,11 +73,13 @@
 		4CAB3BE323292DE6006E5891 /* LookupResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupResponse.swift; sourceTree = "<group>"; };
 		4CAB3BE523292DF2006E5891 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
 		4CAB3BE723293D35006E5891 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		4CAB3BEA23294762006E5891 /* AlamofireNetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireNetworkProvider.swift; sourceTree = "<group>"; };
+		4CAB3BEF23294ECE006E5891 /* ObservableType+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ObservableType+Extensions.swift"; sourceTree = "<group>"; };
 		68A68F1CA322F9F579F20F37 /* Pods_Viptuner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Viptuner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C0B166610FDDBC75D0E4B2 /* libPods-ViptunerUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViptunerUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE77B86B8F250C3873A0F3E6 /* Pods-ViptunerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViptunerTests.release.xcconfig"; path = "Target Support Files/Pods-ViptunerTests/Pods-ViptunerTests.release.xcconfig"; sourceTree = "<group>"; };
 		C103A36FE29262DA161AEACA /* Pods-Viptuner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viptuner.debug.xcconfig"; path = "Target Support Files/Pods-Viptuner/Pods-Viptuner.debug.xcconfig"; sourceTree = "<group>"; };
-		C4249D0EA76D56EE111D223B /* Pods_ViptunerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViptunerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6B4670D68631946391A9828 /* Pods_ViptunerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViptunerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6811D6FA0E2D3A5D8417D1D /* libPods-ViptunerTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ViptunerTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DCBF1DC02632604C5006C4 /* Pods-Viptuner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Viptuner.release.xcconfig"; path = "Target Support Files/Pods-Viptuner/Pods-Viptuner.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C875ED074A3AD25577684A1 /* Pods_ViptunerTests.framework in Frameworks */,
+				A710AD68488DFA1D7F898870 /* libPods-ViptunerTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,7 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840A63A7D6E61FD3EB3CEB08 /* Pods_ViptunerUITests.framework in Frameworks */,
+				77E85B6CB5FD63EC672DC128 /* libPods-ViptunerUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +154,7 @@
 				4CAB3BDE23292D11006E5891 /* Services */,
 				4C898638232846BD002858F3 /* Modules */,
 				4C898637232846AA002858F3 /* Providers */,
+				4CAB3BEC23294E8B006E5891 /* Utils */,
 			);
 			path = Viptuner;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			children = (
 				4C89863A232846F5002858F3 /* NetworkProviderContract.swift */,
 				4CAB3BE723293D35006E5891 /* Endpoint.swift */,
+				4CAB3BE923294742006E5891 /* AlamofireProvider */,
 			);
 			path = NetworkProvider;
 			sourceTree = "<group>";
@@ -246,12 +252,44 @@
 			path = ResponseModels;
 			sourceTree = "<group>";
 		};
+		4CAB3BE923294742006E5891 /* AlamofireProvider */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB3BEA23294762006E5891 /* AlamofireNetworkProvider.swift */,
+			);
+			path = AlamofireProvider;
+			sourceTree = "<group>";
+		};
+		4CAB3BEC23294E8B006E5891 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB3BED23294E99006E5891 /* Extensions */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4CAB3BED23294E99006E5891 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB3BEE23294EAD006E5891 /* RxSwift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4CAB3BEE23294EAD006E5891 /* RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB3BEF23294ECE006E5891 /* ObservableType+Extensions.swift */,
+			);
+			path = RxSwift;
+			sourceTree = "<group>";
+		};
 		9625DB228C9F66D52DEFD0FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				68A68F1CA322F9F579F20F37 /* Pods_Viptuner.framework */,
-				D6B4670D68631946391A9828 /* Pods_ViptunerTests.framework */,
-				C4249D0EA76D56EE111D223B /* Pods_ViptunerUITests.framework */,
+				D6811D6FA0E2D3A5D8417D1D /* libPods-ViptunerTests.a */,
+				B9C0B166610FDDBC75D0E4B2 /* libPods-ViptunerUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -267,6 +305,7 @@
 				4C8985F42327F86E002858F3 /* Sources */,
 				4C8985F52327F86E002858F3 /* Frameworks */,
 				4C8985F62327F86E002858F3 /* Resources */,
+				9E5CBA235FEBB77EF76B6031 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -452,6 +491,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9E5CBA235FEBB77EF76B6031 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viptuner/Pods-Viptuner-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Viptuner/Pods-Viptuner-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Viptuner/Pods-Viptuner-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -461,9 +517,11 @@
 			files = (
 				4C89862C2328191A002858F3 /* AppEnvironment.swift in Sources */,
 				4C898630232822FD002858F3 /* AppNavigation.swift in Sources */,
+				4CAB3BEB23294762006E5891 /* AlamofireNetworkProvider.swift in Sources */,
 				4CAB3BE423292DE6006E5891 /* LookupResponse.swift in Sources */,
 				4C89863423282583002858F3 /* AppColors.swift in Sources */,
 				4C8986362328405B002858F3 /* AppRouter.swift in Sources */,
+				4CAB3BF023294ECE006E5891 /* ObservableType+Extensions.swift in Sources */,
 				4C8985FC2327F86E002858F3 /* AppDelegate.swift in Sources */,
 				4CAB3BE623292DF2006E5891 /* SearchResponse.swift in Sources */,
 				4CAB3BE823293D35006E5891 /* Endpoint.swift in Sources */,

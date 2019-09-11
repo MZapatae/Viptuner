@@ -10,7 +10,9 @@ import Foundation
 
 struct AppConstants {
     
-    struct AppInfo {
+    private init() { }
+    
+    enum AppInfo {
         static var version: String { return Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "" }
         static var build: String { return Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "" }
     }

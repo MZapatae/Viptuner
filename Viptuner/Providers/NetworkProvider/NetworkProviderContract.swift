@@ -8,6 +8,8 @@
 
 import Foundation
 
+// TODO: Improve later with headers in protocol
+
 typealias Parameters = [String: Any]
 typealias Path = String
 
@@ -16,9 +18,7 @@ enum HttpMethod {
 }
 
 protocol NetworkProviderProtocol {
-    associatedtype ResponseModel
-    associatedtype ReactiveResponse
-    func request<Endpoint: EndpointProviderProtocol>(_ endpoint: Endpoint) -> ReactiveResponse where Endpoint.ResponseModel == ResponseModel
+    func request<Endpoint: EndpointProviderProtocol, ResponseModel: Codable>(_ endpoint: Endpoint) -> Data where Endpoint.ResponseModel == ResponseModel
 }
 
 protocol EndpointProviderProtocol: class {
@@ -44,4 +44,8 @@ extension EndpointProviderProtocol where ResponseModel == Void {
     init(method: HttpMethod, path: Path, parameters: Parameters? = nil) {
         self.init(method: method, path: path, parameters: parameters, decode: { _ in () })
     }
+}
+
+enum NetworkError: Error {
+    case dataCantDecode
 }
