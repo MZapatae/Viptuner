@@ -15,33 +15,32 @@ enum HttpMethod {
     case get, post, put, patch, delete
 }
 
-
 protocol NetworkProviderProtocol {
-    associatedtype ResponseEntity
+    associatedtype ResponseModel
     associatedtype ReactiveResponse
-    func request<Endpoint: EndpointProviderProtocol>(_ endpoint: Endpoint) -> ReactiveResponse where Endpoint.ResponseEntity == ResponseEntity
+    func request<Endpoint: EndpointProviderProtocol>(_ endpoint: Endpoint) -> ReactiveResponse where Endpoint.ResponseModel == ResponseModel
 }
 
 protocol EndpointProviderProtocol: class {
-    associatedtype ResponseEntity
+    associatedtype ResponseModel
     
     var method: HttpMethod { get }
     var path: Path { get }
     var parameters: Parameters? { get }
-    var decode: (Data) -> ResponseEntity? { get }
+    var decode: (Data) -> ResponseModel? { get }
     
-    init(method: HttpMethod, path: Path, parameters: Parameters?, decode: (Data) -> ResponseEntity?)
+    init(method: HttpMethod, path: Path, parameters: Parameters?, decode: @escaping (Data) -> ResponseModel?)
 }
 
-extension EndpointProviderProtocol where ResponseEntity: Codable {
+extension EndpointProviderProtocol where ResponseModel: Codable {
     init(method: HttpMethod, path: Path, parameters: Parameters? = nil) {
         self.init(method: method, path: path, parameters: parameters, decode: {
-            return try? JSONDecoder().decode(ResponseEntity.self, from: $0)
+            return try? JSONDecoder().decode(ResponseModel.self, from: $0)
         })
     }
 }
 
-extension EndpointProviderProtocol where ResponseEntity == Void {
+extension EndpointProviderProtocol where ResponseModel == Void {
     init(method: HttpMethod, path: Path, parameters: Parameters? = nil) {
         self.init(method: method, path: path, parameters: parameters, decode: { _ in () })
     }
