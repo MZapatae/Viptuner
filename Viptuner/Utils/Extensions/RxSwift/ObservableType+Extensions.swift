@@ -10,18 +10,29 @@ import RxSwift
 
 extension ObservableType {
     
-    public func mapDataAsObject<T: Codable>(type: T.Type) -> Observable<T> {
-        return flatMap { data -> Observable<T> in
-            guard let (response, object) = data as? (HTTPURLResponse, Data) else {
-                throw NetworkError
+    public func mapResponseDataAsObject<T: Codable>(type: T.Type) -> Observable<T> {
+        return flatMap { responseData -> Observable<T> in
+            guard let (response, data) = responseData as? (HTTPURLResponse, Data) else {
+                throw NetworkError.dataCantDecode
             }
             
-            
-            
-            
+            do {
+                let object = try JSONDecoder().decode(T.self, from: data)
+                return Observable.just(object)
+            }
         }
     }
     
-    
-    
+    public func mapResponseDataAsArray<T: Codable>(type: T.Type) -> Observable<T> {
+        return flatMap { responseData -> Observable<T> in
+            guard let (response, data) = responseData as? (HTTPURLResponse, Data) else {
+                throw NetworkError.dataCantDecode
+            }
+            
+            do {
+                let object = try JSONDecoder().decode([T].self, from: data)
+                return Observable.from(object)
+            }
+        }
+    }
 }

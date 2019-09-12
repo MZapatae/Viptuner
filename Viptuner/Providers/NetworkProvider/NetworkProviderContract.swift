@@ -18,7 +18,8 @@ enum HttpMethod {
 }
 
 protocol NetworkProviderProtocol {
-    func request<Endpoint: EndpointProviderProtocol, ResponseModel: Codable>(_ endpoint: Endpoint) -> Data where Endpoint.ResponseModel == ResponseModel
+    associatedtype ResponseData
+    func request<Endpoint: EndpointProviderProtocol>(_ endpoint: Endpoint) -> ResponseData
 }
 
 protocol EndpointProviderProtocol: class {
