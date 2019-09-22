@@ -19,6 +19,8 @@ extension ObservableType {
             do {
                 let object = try JSONDecoder().decode(T.self, from: data)
                 return Observable.just(object)
+            } catch {
+                throw NetworkError.dataCantDecode
             }
         }
     }
@@ -32,6 +34,8 @@ extension ObservableType {
             do {
                 let object = try JSONDecoder().decode([T].self, from: data)
                 return Observable.from(object)
+            } catch {
+                throw NetworkError.dataCantDecode
             }
         }
     }

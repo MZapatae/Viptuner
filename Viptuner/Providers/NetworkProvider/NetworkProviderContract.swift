@@ -48,5 +48,6 @@ extension EndpointProviderProtocol where ResponseModel == Void {
 }
 
 enum NetworkError: Error {
+    case internalServer
     case dataCantDecode
 }
