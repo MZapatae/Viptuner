@@ -1,5 +1,5 @@
 //
-//  NetworkProviderContract.swift
+//  NetworkProvider.swift
 //  Viptuner
 //
 //  Created by Miguel Zapata on 9/10/19.
@@ -17,12 +17,12 @@ enum HttpMethod {
     case get, post, put, patch, delete
 }
 
-protocol NetworkProviderProtocol {
+protocol NetworkProvider {
     associatedtype ResponseData
-    func request<Endpoint: EndpointProviderProtocol>(_ endpoint: Endpoint) -> ResponseData
+    func request<Endpoint: EndpointProvider>(_ endpoint: Endpoint) -> ResponseData
 }
 
-protocol EndpointProviderProtocol: class {
+protocol EndpointProvider: class {
     associatedtype ResponseModel
     
     var method: HttpMethod { get }
@@ -33,7 +33,7 @@ protocol EndpointProviderProtocol: class {
     init(method: HttpMethod, path: Path, parameters: Parameters?, decode: @escaping (Data) -> ResponseModel?)
 }
 
-extension EndpointProviderProtocol where ResponseModel: Codable {
+extension EndpointProvider where ResponseModel: Codable {
     init(method: HttpMethod, path: Path, parameters: Parameters? = nil) {
         self.init(method: method, path: path, parameters: parameters, decode: {
             return try? JSONDecoder().decode(ResponseModel.self, from: $0)
@@ -41,7 +41,7 @@ extension EndpointProviderProtocol where ResponseModel: Codable {
     }
 }
 
-extension EndpointProviderProtocol where ResponseModel == Void {
+extension EndpointProvider where ResponseModel == Void {
     init(method: HttpMethod, path: Path, parameters: Parameters? = nil) {
         self.init(method: method, path: path, parameters: parameters, decode: { _ in () })
     }

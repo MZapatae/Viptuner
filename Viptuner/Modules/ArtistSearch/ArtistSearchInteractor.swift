@@ -30,7 +30,7 @@ final class ArtistSearchInteractor: ArtistSearchInteractorProtocol {
                 strongSelf.delegate?.artistSearchFailed(error)
                 strongSelf.artistsFounded.removeAll()
             case .completed:
-                strongSelf.delegate?.searchedArtists(strongSelf.artistsFounded)
+                strongSelf.delegate?.artistsSearched(strongSelf.artistsFounded)
                 strongSelf.artistsFounded.removeAll()
             }
         }.disposed(by: disposeBag)

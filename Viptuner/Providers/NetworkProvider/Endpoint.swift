@@ -8,7 +8,7 @@
 
 import Foundation
 
-final class Endpoint<ResponseModel>: EndpointProviderProtocol {
+final class Endpoint<ResponseModel>: EndpointProvider {
     let method: HttpMethod
     let path: Path
     let parameters: Parameters?

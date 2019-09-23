@@ -33,7 +33,7 @@ final class ArtistSearchPresenter: ArtistSearchPresenterProtocol {
 
 extension ArtistSearchPresenter: ArtistSearchInteractorDelegate {
     
-    func searchedArtists(_ artists: [Artist]) {
+    func artistsSearched(_ artists: [Artist]) {
         self.artistsFounded = artists
         view?.hideLoadingIndicator()
     }

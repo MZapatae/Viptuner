@@ -10,7 +10,7 @@ import Alamofire
 import RxAlamofire
 import RxSwift
 
-final class RxAlamofireNetworkProvider: NetworkProviderProtocol {
+final class RxAlamofireNetworkProvider: NetworkProvider {
     typealias ResponseData = Observable<(HTTPURLResponse, Data)>
     
     static let shared = RxAlamofireNetworkProvider()
@@ -22,7 +22,7 @@ final class RxAlamofireNetworkProvider: NetworkProviderProtocol {
         self.sessionManager = Alamofire.SessionManager(configuration: sessionConfiguration)
     }
     
-    func request<Endpoint>(_ endpoint: Endpoint) -> ResponseData where Endpoint : EndpointProviderProtocol {
+    func request<Endpoint>(_ endpoint: Endpoint) -> ResponseData where Endpoint : EndpointProvider {
         let request = sessionManager.request(
             url(path: endpoint.path),
             method: self.httpMethod(from: endpoint.method),

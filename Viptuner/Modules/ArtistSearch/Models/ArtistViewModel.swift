@@ -9,17 +9,20 @@
 struct ArtistViewModel: ArtistViewModelProtocol {
     var id: Int
     var name: String
+    var linkUrl: String
     
     init?(_ artistResponse: ArtistResponse) {
         guard
             let id = artistResponse.amgArtistId,
-            let name = artistResponse.artistName
+            let name = artistResponse.artistName,
+            let linkUrl = artistResponse.artistLinkUrl
         else {
             return nil
         }
         
         self.id = id
         self.name = name
+        self.linkUrl = linkUrl
     }
 
 }

@@ -19,7 +19,7 @@ protocol ArtistSearchInteractorProtocol: class {
 }
 
 protocol ArtistSearchInteractorDelegate: class {
-    func searchedArtists(_ artists: [Artist])
+    func artistsSearched(_ artists: [Artist])
     func artistSearchFailed(_ error: Error)
 }
 
@@ -33,6 +33,8 @@ protocol ArtistSearchPresenterProtocol: class {
 }
 
 protocol ArtistSearchRouterProtocol: class {
+    var viewController: UIViewController? { get set }
+
     func presentArtistLookupView(artistId: Int)
     func presentAlertDialog(message: String)
     func presentNoResultMessage()
