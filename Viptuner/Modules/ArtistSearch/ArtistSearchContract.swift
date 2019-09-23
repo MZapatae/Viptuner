@@ -29,13 +29,13 @@ protocol ArtistSearchPresenterProtocol: class {
     var view: ArtistSearchViewProtocol? { get set }
     
     func didSearchArtist(name: String)
-    func didTapArtist(id: Int)
+    func didSelectArtist(index: Int)
 }
 
 protocol ArtistSearchRouterProtocol: class {
     var viewController: UIViewController? { get set }
 
-    func presentArtistLookupView(artistId: Int)
+    func presentArtistLookupView(artist: Artist)
     func presentAlertDialog(message: String)
     func presentNoResultMessage()
 }

@@ -11,8 +11,8 @@ import UIKit
 class AppRouter {
     
     func setupRootScreen(in window: UIWindow) {
-        //let breedsVC = ArtistSearchRouter.assembleModule()
-        //presentView(viewController: breedsVC, in: window)
+        let artistSearchVC = ArtistSearchWireframe.assemble()
+        presentView(viewController: artistSearchVC, in: window)
     }
     
     fileprivate func presentView(viewController: UIViewController, in window: UIWindow) {

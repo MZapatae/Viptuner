@@ -25,8 +25,9 @@ final class ArtistSearchPresenter: ArtistSearchPresenterProtocol {
         interactor?.searchArtists(name: name)
     }
     
-    func didTapArtist(id: Int) {
-        router?.presentArtistLookupView(artistId: id)
+    func didSelectArtist(index: Int) {
+        guard let artist = artistsFounded[safe: index] else { return }
+        router?.presentArtistLookupView(artist: artist)
     }
     
 }

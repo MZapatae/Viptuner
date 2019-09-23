@@ -43,6 +43,10 @@
 		AE6F56EE23385CF50096B6F1 /* ArtistLookupInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56ED23385CF50096B6F1 /* ArtistLookupInteractor.swift */; };
 		AE6F56F0233869130096B6F1 /* ArtistLookupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56EF233869130096B6F1 /* ArtistLookupPresenter.swift */; };
 		AE6F56F423386E420096B6F1 /* Collections+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56F323386E420096B6F1 /* Collections+Extensions.swift */; };
+		AE6F56F623387FBE0096B6F1 /* ArtistSearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56F523387FBE0096B6F1 /* ArtistSearchRouter.swift */; };
+		AE6F56F8233880D00096B6F1 /* ArtistLookupWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56F7233880D00096B6F1 /* ArtistLookupWireframe.swift */; };
+		AE6F56FA233881F70096B6F1 /* ArtistLookupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56F9233881F70096B6F1 /* ArtistLookupRouter.swift */; };
+		AE6F56FC233884850096B6F1 /* ArtistSearchWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56FB233884850096B6F1 /* ArtistSearchWireframe.swift */; };
 		AEAEEDD12336D166003DF8B7 /* ArtistsDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD02336D166003DF8B7 /* ArtistsDataSources.swift */; };
 		AEAEEDD32336D563003DF8B7 /* ArtistsCloudSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD22336D563003DF8B7 /* ArtistsCloudSource.swift */; };
 		AEAEEDD52336DA31003DF8B7 /* ArtistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD42336DA31003DF8B7 /* ArtistRepository.swift */; };
@@ -111,6 +115,10 @@
 		AE6F56ED23385CF50096B6F1 /* ArtistLookupInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistLookupInteractor.swift; sourceTree = "<group>"; };
 		AE6F56EF233869130096B6F1 /* ArtistLookupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistLookupPresenter.swift; sourceTree = "<group>"; };
 		AE6F56F323386E420096B6F1 /* Collections+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collections+Extensions.swift"; sourceTree = "<group>"; };
+		AE6F56F523387FBE0096B6F1 /* ArtistSearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchRouter.swift; sourceTree = "<group>"; };
+		AE6F56F7233880D00096B6F1 /* ArtistLookupWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistLookupWireframe.swift; sourceTree = "<group>"; };
+		AE6F56F9233881F70096B6F1 /* ArtistLookupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistLookupRouter.swift; sourceTree = "<group>"; };
+		AE6F56FB233884850096B6F1 /* ArtistSearchWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchWireframe.swift; sourceTree = "<group>"; };
 		AEAEEDD02336D166003DF8B7 /* ArtistsDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsDataSources.swift; sourceTree = "<group>"; };
 		AEAEEDD22336D563003DF8B7 /* ArtistsCloudSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsCloudSource.swift; sourceTree = "<group>"; };
 		AEAEEDD42336DA31003DF8B7 /* ArtistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRepository.swift; sourceTree = "<group>"; };
@@ -254,8 +262,8 @@
 		4C898638232846BD002858F3 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				AE6F56D8233836480096B6F1 /* ArtistLookup */,
 				AEAEEDD62336DB30003DF8B7 /* ArtistSearch */,
+				AE6F56D8233836480096B6F1 /* ArtistLookup */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -334,8 +342,10 @@
 			isa = PBXGroup;
 			children = (
 				AE6F56E5233846BF0096B6F1 /* ArtistLookupContract.swift */,
+				AE6F56F7233880D00096B6F1 /* ArtistLookupWireframe.swift */,
 				AE6F56ED23385CF50096B6F1 /* ArtistLookupInteractor.swift */,
 				AE6F56EF233869130096B6F1 /* ArtistLookupPresenter.swift */,
+				AE6F56F9233881F70096B6F1 /* ArtistLookupRouter.swift */,
 				AE6F56D9233837B10096B6F1 /* Models */,
 			);
 			path = ArtistLookup;
@@ -393,8 +403,10 @@
 			isa = PBXGroup;
 			children = (
 				AEAEEDD72336DB74003DF8B7 /* ArtistSearchContract.swift */,
+				AE6F56FB233884850096B6F1 /* ArtistSearchWireframe.swift */,
 				AE6F56CD2336EC3B0096B6F1 /* ArtistSearchInteractor.swift */,
 				AE6F56CF2336F1F80096B6F1 /* ArtistSearchPresenter.swift */,
+				AE6F56F523387FBE0096B6F1 /* ArtistSearchRouter.swift */,
 				AEAEEDD92336DF7E003DF8B7 /* Models */,
 			);
 			path = ArtistSearch;
@@ -633,6 +645,7 @@
 			files = (
 				4C89862C2328191A002858F3 /* AppEnvironment.swift in Sources */,
 				AE6F56DF233837EA0096B6F1 /* TrackViewModel.swift in Sources */,
+				AE6F56F8233880D00096B6F1 /* ArtistLookupWireframe.swift in Sources */,
 				4C898630232822FD002858F3 /* AppNavigation.swift in Sources */,
 				4CAB3BEB23294762006E5891 /* AlamofireNetworkProvider.swift in Sources */,
 				AE6F56E6233846BF0096B6F1 /* ArtistLookupContract.swift in Sources */,
@@ -640,6 +653,7 @@
 				AE6F56E8233850DF0096B6F1 /* ArtistInfo.swift in Sources */,
 				AE6F56EC233851AF0096B6F1 /* ArtistInfoViewModel.swift in Sources */,
 				4CAB3BE423292DE6006E5891 /* LookupResponse.swift in Sources */,
+				AE6F56FC233884850096B6F1 /* ArtistSearchWireframe.swift in Sources */,
 				AE6F56DB233837C20096B6F1 /* Track.swift in Sources */,
 				4C89863423282583002858F3 /* AppColors.swift in Sources */,
 				4C8986362328405B002858F3 /* AppRouter.swift in Sources */,
@@ -656,8 +670,10 @@
 				AEAEEDDB2336E429003DF8B7 /* Artist.swift in Sources */,
 				4CAB3BE623292DF2006E5891 /* SearchResponse.swift in Sources */,
 				4CAB3BE823293D35006E5891 /* Endpoint.swift in Sources */,
+				AE6F56F623387FBE0096B6F1 /* ArtistSearchRouter.swift in Sources */,
 				AE6F56D02336F1F80096B6F1 /* ArtistSearchPresenter.swift in Sources */,
 				4C89863B232846F5002858F3 /* NetworkProvider.swift in Sources */,
+				AE6F56FA233881F70096B6F1 /* ArtistLookupRouter.swift in Sources */,
 				4CAB3BE023292D45006E5891 /* API.swift in Sources */,
 				AE6F56CE2336EC3B0096B6F1 /* ArtistSearchInteractor.swift in Sources */,
 				AE6F56DD233837E00096B6F1 /* TrackEntity.swift in Sources */,
