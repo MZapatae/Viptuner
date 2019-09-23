@@ -31,6 +31,11 @@ class ArtistRepository: ArtistRepositoryProtocol {
     }
     
     func fetchArtistSongs(artistId: Int) -> Observable<Track> {
-        return Observable.empty()
+        let tracksResponseObservable = cloudSource.fetchArtistTracks(artistId: artistId).asObservable().flatMapFirst { Observable.from($0.results ?? []) }
+        return tracksResponseObservable.map { trackResponse -> Track in
+            let entity = TrackEntity(trackResponse)
+            let viewModel = TrackViewModel(trackResponse)
+            return (entity: entity, viewModel: viewModel)
+        }
     }
 }

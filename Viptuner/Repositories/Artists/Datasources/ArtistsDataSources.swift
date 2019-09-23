@@ -12,5 +12,5 @@ protocol ArtistsDataSourceProtocol: class { }
 
 protocol ArtistCloudSourceProtocol: ArtistsDataSourceProtocol {
     func fetchArtists(name: String) -> Single<SearchResponse>
-    func fetchArtistSongs(artisId: Int) -> Single<LookupResponse>
+    func fetchArtistTracks(artistId: Int) -> Single<LookupResponse>
 }

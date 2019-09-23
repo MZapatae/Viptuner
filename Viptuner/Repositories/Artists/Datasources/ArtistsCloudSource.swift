@@ -16,8 +16,8 @@ class ArtistsCloudSource: ArtistCloudSourceProtocol {
         return networkProvider.request(API.searchArtist(query: name)).mapResponseDataAsObject(type: SearchResponse.self).asSingle()
     }
     
-    func fetchArtistSongs(artisId: Int) -> Single<LookupResponse> {
-        return networkProvider.request(API.artistSongs(artistId: artisId)).mapResponseDataAsObject(type: LookupResponse.self).asSingle()
+    func fetchArtistTracks(artistId: Int) -> Single<LookupResponse> {
+        return networkProvider.request(API.artistTracks(artistId: artistId)).mapResponseDataAsObject(type: LookupResponse.self).asSingle()
     }
     
 }
