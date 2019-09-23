@@ -10,7 +10,7 @@ import RxSwift
 
 protocol ArtistRepositoryProtocol {
     func fetchArtists(name: String) -> Observable<Artist>
-//    func fetchArtistDetail(artistId: Int)
+    func fetchArtistSongs(artistId: Int) -> Observable<Track>
 }
 
 class ArtistRepository: ArtistRepositoryProtocol {
@@ -28,5 +28,9 @@ class ArtistRepository: ArtistRepositoryProtocol {
             }
             return Observable.empty()
         }
+    }
+    
+    func fetchArtistSongs(artistId: Int) -> Observable<Track> {
+        return Observable.empty()
     }
 }

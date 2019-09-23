@@ -6,4 +6,17 @@
 //  Copyright © 2019 MZapataE. All rights reserved.
 //
 
-import Foundation
+struct ArtistInfoEntity: ArtistInfoEntityProtocol {
+    var id: Int
+    var linkUrl: String
+    
+    init(id: Int, linkUrl: String) {
+        self.id = id
+        self.linkUrl = linkUrl
+    }
+    
+    init(_ artist: ArtistEntityProtocol) {
+        self.id = artist.id
+        self.linkUrl = artist.linkUrl
+    }
+}

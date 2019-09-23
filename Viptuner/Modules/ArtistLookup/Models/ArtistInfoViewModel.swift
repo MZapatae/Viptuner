@@ -6,4 +6,14 @@
 //  Copyright © 2019 MZapataE. All rights reserved.
 //
 
-import Foundation
+struct ArtistInfoViewModel: ArtistInfoViewModelProtocol {
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+    }
+    
+    init(_ artist: ArtistViewModelProtocol) {
+        self.name = artist.name
+    }
+}

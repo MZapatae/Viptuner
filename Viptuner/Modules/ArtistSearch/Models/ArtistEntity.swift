@@ -8,10 +8,12 @@
 
 struct ArtistEntity: ArtistEntityProtocol {
     var id: Int
+    var linkUrl: String
     
     init?(_ artistResponse: ArtistResponse) {
-        guard let id = artistResponse.amgArtistId else { return nil }
+        guard let id = artistResponse.amgArtistId, let linkUrl = artistResponse.artistLinkUrl else { return nil }
         self.id = id
+        self.linkUrl = linkUrl
     }
 
 }

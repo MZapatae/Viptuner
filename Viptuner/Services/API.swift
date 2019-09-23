@@ -14,8 +14,8 @@ enum API {
         return Endpoint<SearchResponse>(method: .get, path: itunesBaseUrl + "/search?term=\(query)&entity=musicArtist&attribute=artistTerm&media=music")
     }
     
-    static func lookupArtist(id: Int) -> Endpoint<LookupResponse> {
-        return Endpoint<LookupResponse>(method: .get, path: itunesBaseUrl + "/lookup?amgArtistId=\(id)&entity=song&limit=5&sort=recent")
+    static func artistSongs(artistId: Int) -> Endpoint<LookupResponse> {
+        return Endpoint<LookupResponse>(method: .get, path: itunesBaseUrl + "/lookup?amgArtistId=\(artistId)&entity=song&limit=5&sort=recent")
     }
     
 }

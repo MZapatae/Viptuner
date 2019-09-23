@@ -8,10 +8,11 @@
 
 protocol ArtistInfoEntityProtocol {
     var id: Int { get }
+    var linkUrl: String { get }
 }
 
 protocol ArtistInfoViewModelProtocol {
     var name: String { get }
 }
 
-typealias ArtistInfo = (entity: ArtistInfoEntityProtocol, viewModel: ArtistViewModelProtocol)
+typealias ArtistInfo = (entity: ArtistInfoEntityProtocol, viewModel: ArtistInfoViewModelProtocol)

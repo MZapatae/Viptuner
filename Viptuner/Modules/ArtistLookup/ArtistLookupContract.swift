@@ -28,7 +28,7 @@ protocol ArtistLookupPresenterProtocol: class {
     var router: ArtistLookupRouterProtocol? { get set }
     var view: ArtistLookupViewProtocol? { get set }
     
-    init(artistId: Int)
+    init(artistInfo: ArtistInfo)
     
     func viewDidLoad()
     func didTapPlayMusicButton(_ index: Int)
@@ -47,7 +47,7 @@ protocol ArtistLookupViewProtocol: class {
     
     func showLoadingIndicator()
     func hideLoadingIndicator()
-    func showTracks(_ tracks: [Track])
+    func showTracks(_ tracks: [TrackViewModelProtocol])
     func showArtistInfo(_ artistInfo: ArtistInfoViewModelProtocol)
     func playMusic(url: String)
     func showNoResultsScreen()
