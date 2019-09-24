@@ -17,7 +17,7 @@ final class ArtistSearchVC: UIViewController {
     
     private var hudProvider: HUDProvider
     
-    private(set) var artists: [ArtistViewModelProtocol] = [] {
+    var artists: [ArtistViewModelProtocol] = [] {
         didSet {
             tableView.reloadData()
         }
@@ -45,19 +45,20 @@ final class ArtistSearchVC: UIViewController {
 extension ArtistSearchVC: ArtistSearchViewProtocol {
     
     func showLoadingIndicator() {
-        //
+        hudProvider.showLoading(message: nil)
     }
     
     func hideLoadingIndicator() {
-        //
+        hudProvider.hideLoading()
     }
     
-    func showSearchResult(_ artist: [ArtistViewModelProtocol]) {
-        //
+    func showSearchResult(_ artists: [ArtistViewModelProtocol]) {
+        self.artists = artists
+        tableView.isHidden = false
     }
     
     func showNoSearchResults() {
-        //
+        tableView.isHidden = true
     }
     
 }

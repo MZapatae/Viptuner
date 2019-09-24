@@ -22,6 +22,7 @@ final class ArtistSearchPresenter: ArtistSearchPresenterProtocol {
     }
     
     func didSearchArtist(name: String) {
+        view?.showLoadingIndicator()
         interactor?.searchArtists(name: name)
     }
     

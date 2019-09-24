@@ -11,10 +11,20 @@ import UIKit
 extension ArtistSearchVC: UISearchBarDelegate {
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
-        presenter?.didSearchArtist(name: searchBar.text ?? "")
+        guard let query = searchBar.text, !query.isEmpty else { return }
+        presenter?.didSearchArtist(name: query)
         searchBar.resignFirstResponder()
     }
     
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        if  searchText.isEmpty {
+            artists.removeAll()
+            searchBar.showsCancelButton = false
+            searchBar.endEditing(true)
+            searchBar.resignFirstResponder()
+        }
+    }
+
 }
 
 extension ArtistSearchVC: UITableViewDelegate {

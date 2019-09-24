@@ -6,6 +6,8 @@
 //  Copyright © 2019 MZapataE. All rights reserved.
 //
 
+import UIKit
+
 extension ArtistSearchVC {
     
     func setupVC() {
@@ -20,7 +22,7 @@ extension ArtistSearchVC {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(ArtistViewCell.self)
-        tableView.backgroundColor = AppColors.backgroundOne.uiColor
+        tableView.tableFooterView = UIView()
     }
     
     func setupSearchBar() {
