@@ -8,9 +8,9 @@
 
 import SVProgressHUD
 
-class SVProgressHud: HUDProvider {
+class SVProgressHudProvider: HUDProvider {
     
-    static let shared = SVProgressHud()
+    static let shared = SVProgressHudProvider()
     
     private init() { }
     

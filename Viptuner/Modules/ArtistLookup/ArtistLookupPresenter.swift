@@ -27,6 +27,7 @@ final class ArtistLookupPresenter: ArtistLookupPresenterProtocol {
     }
     
     func viewDidLoad() {
+        view?.showLoadingIndicator()
         interactor?.fetchTracks(artistId: artistInfo.entity.id)
         view?.showArtistInfo(artistInfo.viewModel)
     }

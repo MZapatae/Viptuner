@@ -13,7 +13,7 @@ final class ArtistSearchWireframe: ArtistSearchWireframeProtocol {
     static func assemble() -> UIViewController {
         let artistRepository = ArtistRepository(cloudSource: ArtistsCloudSource())
         
-        let hudProvider: HUDProvider = SVProgressHud.shared
+        let hudProvider: HUDProvider = SVProgressHudProvider.shared
 
         let interactor = ArtistSearchInteractor(artistRepository: artistRepository)
         let presenter = ArtistSearchPresenter()

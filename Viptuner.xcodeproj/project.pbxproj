@@ -19,6 +19,10 @@
 		4C89863423282583002858F3 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89863323282583002858F3 /* AppColors.swift */; };
 		4C8986362328405B002858F3 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C8986352328405B002858F3 /* AppRouter.swift */; };
 		4C89863B232846F5002858F3 /* NetworkProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C89863A232846F5002858F3 /* NetworkProvider.swift */; };
+		4CA57E03233AA07D005740E5 /* ArtistLookupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA57E02233AA07D005740E5 /* ArtistLookupVC.swift */; };
+		4CA57E05233AA844005740E5 /* ArtistLookupVC+UILogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA57E04233AA844005740E5 /* ArtistLookupVC+UILogic.swift */; };
+		4CA57E07233AB53E005740E5 /* TrackViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA57E06233AB53E005740E5 /* TrackViewCell.swift */; };
+		4CA57E09233AB957005740E5 /* ArtistLookupVC+UIDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA57E08233AB957005740E5 /* ArtistLookupVC+UIDataSources.swift */; };
 		4CAB3BE023292D45006E5891 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB3BDF23292D45006E5891 /* API.swift */; };
 		4CAB3BE423292DE6006E5891 /* LookupResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB3BE323292DE6006E5891 /* LookupResponse.swift */; };
 		4CAB3BE623292DF2006E5891 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAB3BE523292DF2006E5891 /* SearchResponse.swift */; };
@@ -61,7 +65,7 @@
 		AE6F571F2339A7550096B6F1 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F571E2339A7550096B6F1 /* UITableView+Extensions.swift */; };
 		AE6F57212339A91D0096B6F1 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57202339A91D0096B6F1 /* UITableViewCell+Extensions.swift */; };
 		AE6F57232339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57222339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift */; };
-		AE6F57252339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift */; };
+		AE6F57252339AC1E0096B6F1 /* ArtistSearchVC+UIDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDataSources.swift */; };
 		AE6F57282339B03A0096B6F1 /* ArtistViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57272339B03A0096B6F1 /* ArtistViewCell.swift */; };
 		AEAEEDD12336D166003DF8B7 /* ArtistsDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD02336D166003DF8B7 /* ArtistsDataSources.swift */; };
 		AEAEEDD32336D563003DF8B7 /* ArtistsCloudSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD22336D563003DF8B7 /* ArtistsCloudSource.swift */; };
@@ -109,6 +113,10 @@
 		4C89863323282583002858F3 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		4C8986352328405B002858F3 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
 		4C89863A232846F5002858F3 /* NetworkProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProvider.swift; sourceTree = "<group>"; };
+		4CA57E02233AA07D005740E5 /* ArtistLookupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistLookupVC.swift; sourceTree = "<group>"; };
+		4CA57E04233AA844005740E5 /* ArtistLookupVC+UILogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtistLookupVC+UILogic.swift"; sourceTree = "<group>"; };
+		4CA57E06233AB53E005740E5 /* TrackViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewCell.swift; sourceTree = "<group>"; };
+		4CA57E08233AB957005740E5 /* ArtistLookupVC+UIDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtistLookupVC+UIDataSources.swift"; sourceTree = "<group>"; };
 		4CAB3BDF23292D45006E5891 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4CAB3BE323292DE6006E5891 /* LookupResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LookupResponse.swift; sourceTree = "<group>"; };
 		4CAB3BE523292DF2006E5891 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
@@ -149,7 +157,7 @@
 		AE6F571E2339A7550096B6F1 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		AE6F57202339A91D0096B6F1 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
 		AE6F57222339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtistSearchVC+UIDelegates.swift"; sourceTree = "<group>"; };
-		AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtistSearchVC+UIDatasources.swift"; sourceTree = "<group>"; };
+		AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtistSearchVC+UIDataSources.swift"; sourceTree = "<group>"; };
 		AE6F57272339B03A0096B6F1 /* ArtistViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewCell.swift; sourceTree = "<group>"; };
 		AEAEEDD02336D166003DF8B7 /* ArtistsDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsDataSources.swift; sourceTree = "<group>"; };
 		AEAEEDD22336D563003DF8B7 /* ArtistsCloudSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsCloudSource.swift; sourceTree = "<group>"; };
@@ -311,6 +319,23 @@
 			path = NetworkProvider;
 			sourceTree = "<group>";
 		};
+		4CA57E00233A9D48005740E5 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F56FF233990E30096B6F1 /* ArtistLookupView.xib */,
+				AE6F5700233990E30096B6F1 /* TrackViewCell.xib */,
+			);
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		4CA57E01233A9D80005740E5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4CA57E06233AB53E005740E5 /* TrackViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4CAB3BDE23292D11006E5891 /* Services */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,7 +405,8 @@
 				AE6F56ED23385CF50096B6F1 /* ArtistLookupInteractor.swift */,
 				AE6F56EF233869130096B6F1 /* ArtistLookupPresenter.swift */,
 				AE6F56F9233881F70096B6F1 /* ArtistLookupRouter.swift */,
-				AE6F56FE233990B70096B6F1 /* Views */,
+				AE6F56FE233990B70096B6F1 /* ViewControllers */,
+				4CA57E00233A9D48005740E5 /* Xibs */,
 				AE6F56D9233837B10096B6F1 /* Models */,
 				AE6F57072339963F0096B6F1 /* Resources */,
 			);
@@ -425,13 +451,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		AE6F56FE233990B70096B6F1 /* Views */ = {
+		AE6F56FE233990B70096B6F1 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				AE6F56FF233990E30096B6F1 /* ArtistLookupView.xib */,
-				AE6F5700233990E30096B6F1 /* TrackViewCell.xib */,
+				4CA57E01233A9D80005740E5 /* Views */,
+				4CA57E02233AA07D005740E5 /* ArtistLookupVC.swift */,
+				4CA57E04233AA844005740E5 /* ArtistLookupVC+UILogic.swift */,
+				4CA57E08233AB957005740E5 /* ArtistLookupVC+UIDataSources.swift */,
 			);
-			path = Views;
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		AE6F57072339963F0096B6F1 /* Resources */ = {
@@ -449,7 +477,7 @@
 				AE6F571723399E930096B6F1 /* ArtistSearchVC.swift */,
 				AE6F57192339A5B40096B6F1 /* ArtistSearchVC+UILogic.swift */,
 				AE6F57222339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift */,
-				AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift */,
+				AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDataSources.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -796,11 +824,13 @@
 				4C89863423282583002858F3 /* AppColors.swift in Sources */,
 				4C8986362328405B002858F3 /* AppRouter.swift in Sources */,
 				4CAB3BF023294ECE006E5891 /* ObservableType+Extensions.swift in Sources */,
+				4CA57E05233AA844005740E5 /* ArtistLookupVC+UILogic.swift in Sources */,
 				AEAEEDD12336D166003DF8B7 /* ArtistsDataSources.swift in Sources */,
 				AE6F570E233999D50096B6F1 /* HudProvider.swift in Sources */,
 				AEAEEDD82336DB74003DF8B7 /* ArtistSearchContract.swift in Sources */,
 				AEAEEDD52336DA31003DF8B7 /* ArtistRepository.swift in Sources */,
 				AE6F56D52336FC250096B6F1 /* ArtistEntity.swift in Sources */,
+				4CA57E09233AB957005740E5 /* ArtistLookupVC+UIDataSources.swift in Sources */,
 				AE6F56EA233850EC0096B6F1 /* ArtistInfoEntity.swift in Sources */,
 				AE6F56F423386E420096B6F1 /* Collections+Extensions.swift in Sources */,
 				AE6F571D2339A73F0096B6F1 /* UIView+Extensions.swift in Sources */,
@@ -810,11 +840,12 @@
 				4C8985FC2327F86E002858F3 /* AppDelegate.swift in Sources */,
 				AEAEEDDB2336E429003DF8B7 /* Artist.swift in Sources */,
 				4CAB3BE623292DF2006E5891 /* SearchResponse.swift in Sources */,
+				4CA57E03233AA07D005740E5 /* ArtistLookupVC.swift in Sources */,
 				4CAB3BE823293D35006E5891 /* Endpoint.swift in Sources */,
 				AE6F56F623387FBE0096B6F1 /* ArtistSearchRouter.swift in Sources */,
 				AE6F56D02336F1F80096B6F1 /* ArtistSearchPresenter.swift in Sources */,
 				AE6F571A2339A5B40096B6F1 /* ArtistSearchVC+UILogic.swift in Sources */,
-				AE6F57252339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift in Sources */,
+				AE6F57252339AC1E0096B6F1 /* ArtistSearchVC+UIDataSources.swift in Sources */,
 				4C89863B232846F5002858F3 /* NetworkProvider.swift in Sources */,
 				AE6F56FA233881F70096B6F1 /* ArtistLookupRouter.swift in Sources */,
 				4CAB3BE023292D45006E5891 /* API.swift in Sources */,
@@ -823,6 +854,7 @@
 				AE6F56E423383A9D0096B6F1 /* ImageProvider.swift in Sources */,
 				AE6F571323399BA60096B6F1 /* SVProgressHudProvider.swift in Sources */,
 				4C89862E23281A86002858F3 /* AppConstants.swift in Sources */,
+				4CA57E07233AB53E005740E5 /* TrackViewCell.swift in Sources */,
 				AE6F56F0233869130096B6F1 /* ArtistLookupPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

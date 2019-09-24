@@ -43,7 +43,9 @@ protocol ArtistLookupRouterProtocol: class {
 }
 
 protocol ArtistLookupViewProtocol: class {
-    // Add provider for playmusic, hudprovider and imageprovider in init
+    var presenter: ArtistLookupPresenterProtocol? { get set }
+    
+    init(hudProvider: HUDProvider, imageProvider: ImageProvider) // missing player
     
     func showLoadingIndicator()
     func hideLoadingIndicator()

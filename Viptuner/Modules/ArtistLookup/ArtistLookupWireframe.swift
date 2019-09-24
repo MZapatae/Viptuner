@@ -13,19 +13,22 @@ final class ArtistLookupWireframe: ArtistLookupWireframeProtocol {
     static func assemble(artistInfo: ArtistInfo) -> UIViewController {
         let artistRepository = ArtistRepository(cloudSource: ArtistsCloudSource())
         
+        let hudProvider: HUDProvider = SVProgressHudProvider.shared
+        let imageProvider: ImageProvider = KingFisherImageProvider.shared
+        
         let interactor = ArtistLookupInteractor(artistRepository: artistRepository)
         let presenter = ArtistLookupPresenter(artistInfo: artistInfo)
         let router = ArtistLookupRouter()
-        //let view = ArtistLookupVC(nibName: "ArtistLookupView", bundle: nil)
-
+        let view = ArtistLookupVC(hudProvider: hudProvider, imageProvider: imageProvider)
+        
         interactor.delegate = presenter
         presenter.interactor = interactor
         presenter.router = router
-        //presenter.view = view
-        //router.viewController = view
-        //view.presenter = presenter
+        presenter.view = view
+        router.viewController = view
+        view.presenter = presenter
         
-        return UIViewController() // view
+        return view
     }
 
 }
