@@ -12,22 +12,24 @@ final class ArtistSearchWireframe: ArtistSearchWireframeProtocol {
     
     static func assemble() -> UIViewController {
         let artistRepository = ArtistRepository(cloudSource: ArtistsCloudSource())
+        
+        let hudProvider: HUDProvider = SVProgressHud.shared
 
         let interactor = ArtistSearchInteractor(artistRepository: artistRepository)
         let presenter = ArtistSearchPresenter()
         let router = ArtistSearchRouter()
-        //let view = ArtistLookupVC(nibName: "ArtistLookupView", bundle: nil)
+        let view = ArtistSearchVC(hudProvider: hudProvider)
         
-        //let navigation = AppNavigation(rootViewController: view)
+        let navigation = AppNavigation(rootViewController: view)
         
         interactor.delegate = presenter
         presenter.interactor = interactor
         presenter.router = router
-        //presenter.view = view
-        //router.viewController = view
-        //view.presenter = presenter
+        presenter.view = view
+        router.viewController = view
+        view.presenter = presenter
         
-        return UIViewController() // navigation
+        return navigation
     }
     
     

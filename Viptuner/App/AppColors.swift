@@ -9,13 +9,13 @@
 import UIKit
 
 enum AppColors: String {
-    case backgroundOne = "background.1"
-    case surfaceOne = "surface.1"
-    case labelOne = "label.1"
-    case labelTwo = "label.2"
-    case navbarOne = "navbar.1"
-    case navbarTwo = "navbar.2"
-    case navbarThree = "navbar.3"
+    case backgroundOne = "Background/background.1"
+    case surfaceOne = "Surface/surface.1"
+    case labelOne = "Label/label.1"
+    case labelTwo = "Label/label.2"
+    case navbarOne = "NavBar/navbar.1"
+    case navbarTwo = "NavBar/navbar.2"
+    case navbarThree = "NavBar/navbar.3"
     
     var uiColor: UIColor {
         switch self {

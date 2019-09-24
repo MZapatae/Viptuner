@@ -10,14 +10,14 @@ import UIKit
 
 class AppRouter {
     
-    func setupRootScreen(in window: UIWindow) {
+    func setupRootScreen(in window: UIWindow?) {
         let artistSearchVC = ArtistSearchWireframe.assemble()
         presentView(viewController: artistSearchVC, in: window)
     }
     
-    fileprivate func presentView(viewController: UIViewController, in window: UIWindow) {
-        window.makeKeyAndVisible()
-        window.rootViewController = viewController
+    fileprivate func presentView(viewController: UIViewController, in window: UIWindow?) {
+        window?.makeKeyAndVisible()
+        window?.rootViewController = viewController
     }
     
 }

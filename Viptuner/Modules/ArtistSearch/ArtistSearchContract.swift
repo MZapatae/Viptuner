@@ -41,6 +41,10 @@ protocol ArtistSearchRouterProtocol: class {
 }
 
 protocol ArtistSearchViewProtocol: class {
+    var presenter: ArtistSearchPresenterProtocol? { get set }
+
+    init(hudProvider: HUDProvider)
+    
     func showLoadingIndicator()
     func hideLoadingIndicator()
     func showSearchResult(_ artist: [ArtistViewModelProtocol])

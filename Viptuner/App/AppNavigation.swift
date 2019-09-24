@@ -13,9 +13,9 @@ class AppNavigation: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         navigationBar.isTranslucent = false
-        navigationBar.barTintColor = AppColors.navbarThree.uiColor // back and button colors
-        navigationBar.tintColor = AppColors.navbarOne.uiColor // Background Color
-        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor : AppColors.navbarTwo.uiColor] // Navigarion Title Color
+        navigationBar.tintColor = AppColors.navbarThree.uiColor // back and button colors
+        navigationBar.barTintColor = AppColors.navbarOne.uiColor // Background Color
+        navigationBar.titleTextAttributes = [NSAttributedString.Key.foregroundColor: AppColors.navbarTwo.uiColor] // Navigarion Title Color
     }
     
     override var preferredStatusBarStyle: UIStatusBarStyle {

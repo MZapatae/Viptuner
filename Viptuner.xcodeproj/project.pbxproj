@@ -52,6 +52,17 @@
 		AE6F5705233991C40096B6F1 /* ArtistSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6F5703233991C40096B6F1 /* ArtistSearchView.xib */; };
 		AE6F5706233991C40096B6F1 /* ArtistViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6F5704233991C40096B6F1 /* ArtistViewCell.xib */; };
 		AE6F5709233996750096B6F1 /* ArtistLookupAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6F5708233996750096B6F1 /* ArtistLookupAssets.xcassets */; };
+		AE6F570E233999D50096B6F1 /* HudProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F570D233999D50096B6F1 /* HudProvider.swift */; };
+		AE6F571323399BA60096B6F1 /* SVProgressHudProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F571223399BA60096B6F1 /* SVProgressHudProvider.swift */; };
+		AE6F571623399D120096B6F1 /* KingFisherImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F571523399D120096B6F1 /* KingFisherImageProvider.swift */; };
+		AE6F571823399E930096B6F1 /* ArtistSearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F571723399E930096B6F1 /* ArtistSearchVC.swift */; };
+		AE6F571A2339A5B40096B6F1 /* ArtistSearchVC+UILogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57192339A5B40096B6F1 /* ArtistSearchVC+UILogic.swift */; };
+		AE6F571D2339A73F0096B6F1 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F571C2339A73F0096B6F1 /* UIView+Extensions.swift */; };
+		AE6F571F2339A7550096B6F1 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F571E2339A7550096B6F1 /* UITableView+Extensions.swift */; };
+		AE6F57212339A91D0096B6F1 /* UITableViewCell+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57202339A91D0096B6F1 /* UITableViewCell+Extensions.swift */; };
+		AE6F57232339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57222339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift */; };
+		AE6F57252339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift */; };
+		AE6F57282339B03A0096B6F1 /* ArtistViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F57272339B03A0096B6F1 /* ArtistViewCell.swift */; };
 		AEAEEDD12336D166003DF8B7 /* ArtistsDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD02336D166003DF8B7 /* ArtistsDataSources.swift */; };
 		AEAEEDD32336D563003DF8B7 /* ArtistsCloudSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD22336D563003DF8B7 /* ArtistsCloudSource.swift */; };
 		AEAEEDD52336DA31003DF8B7 /* ArtistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD42336DA31003DF8B7 /* ArtistRepository.swift */; };
@@ -129,6 +140,17 @@
 		AE6F5703233991C40096B6F1 /* ArtistSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistSearchView.xib; sourceTree = "<group>"; };
 		AE6F5704233991C40096B6F1 /* ArtistViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistViewCell.xib; sourceTree = "<group>"; };
 		AE6F5708233996750096B6F1 /* ArtistLookupAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ArtistLookupAssets.xcassets; sourceTree = "<group>"; };
+		AE6F570D233999D50096B6F1 /* HudProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HudProvider.swift; sourceTree = "<group>"; };
+		AE6F571223399BA60096B6F1 /* SVProgressHudProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SVProgressHudProvider.swift; sourceTree = "<group>"; };
+		AE6F571523399D120096B6F1 /* KingFisherImageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisherImageProvider.swift; sourceTree = "<group>"; };
+		AE6F571723399E930096B6F1 /* ArtistSearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchVC.swift; sourceTree = "<group>"; };
+		AE6F57192339A5B40096B6F1 /* ArtistSearchVC+UILogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtistSearchVC+UILogic.swift"; sourceTree = "<group>"; };
+		AE6F571C2339A73F0096B6F1 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		AE6F571E2339A7550096B6F1 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		AE6F57202339A91D0096B6F1 /* UITableViewCell+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extensions.swift"; sourceTree = "<group>"; };
+		AE6F57222339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtistSearchVC+UIDelegates.swift"; sourceTree = "<group>"; };
+		AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ArtistSearchVC+UIDatasources.swift"; sourceTree = "<group>"; };
+		AE6F57272339B03A0096B6F1 /* ArtistViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistViewCell.swift; sourceTree = "<group>"; };
 		AEAEEDD02336D166003DF8B7 /* ArtistsDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsDataSources.swift; sourceTree = "<group>"; };
 		AEAEEDD22336D563003DF8B7 /* ArtistsCloudSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsCloudSource.swift; sourceTree = "<group>"; };
 		AEAEEDD42336DA31003DF8B7 /* ArtistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRepository.swift; sourceTree = "<group>"; };
@@ -263,6 +285,7 @@
 		4C898637232846AA002858F3 /* Providers */ = {
 			isa = PBXGroup;
 			children = (
+				AE6F570B233999960096B6F1 /* HudProvider */,
 				AE6F56E223383A7E0096B6F1 /* ImageProvider */,
 				4C898639232846E3002858F3 /* NetworkProvider */,
 			);
@@ -283,7 +306,7 @@
 			children = (
 				4CAB3BE723293D35006E5891 /* Endpoint.swift */,
 				4C89863A232846F5002858F3 /* NetworkProvider.swift */,
-				4CAB3BEA23294762006E5891 /* AlamofireNetworkProvider.swift */,
+				AE6F570F23399B780096B6F1 /* Alamofire */,
 			);
 			path = NetworkProvider;
 			sourceTree = "<group>";
@@ -326,6 +349,7 @@
 			children = (
 				AE6F56F123386E250096B6F1 /* SwiftStandardLib */,
 				4CAB3BEE23294EAD006E5891 /* RxSwift */,
+				AE6F571B2339A6F30096B6F1 /* UIKit */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -380,6 +404,7 @@
 			isa = PBXGroup;
 			children = (
 				AE6F56E323383A9D0096B6F1 /* ImageProvider.swift */,
+				AE6F571423399CF90096B6F1 /* KingFisher */,
 			);
 			path = ImageProvider;
 			sourceTree = "<group>";
@@ -395,8 +420,7 @@
 		AE6F56FD2339907B0096B6F1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				AE6F5703233991C40096B6F1 /* ArtistSearchView.xib */,
-				AE6F5704233991C40096B6F1 /* ArtistViewCell.xib */,
+				AE6F57272339B03A0096B6F1 /* ArtistViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -422,8 +446,64 @@
 			isa = PBXGroup;
 			children = (
 				AE6F56FD2339907B0096B6F1 /* Views */,
+				AE6F571723399E930096B6F1 /* ArtistSearchVC.swift */,
+				AE6F57192339A5B40096B6F1 /* ArtistSearchVC+UILogic.swift */,
+				AE6F57222339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift */,
+				AE6F57242339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE6F570B233999960096B6F1 /* HudProvider */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F570D233999D50096B6F1 /* HudProvider.swift */,
+				AE6F571023399B870096B6F1 /* SVProgressHud */,
+			);
+			path = HudProvider;
+			sourceTree = "<group>";
+		};
+		AE6F570F23399B780096B6F1 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				4CAB3BEA23294762006E5891 /* AlamofireNetworkProvider.swift */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		AE6F571023399B870096B6F1 /* SVProgressHud */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F571223399BA60096B6F1 /* SVProgressHudProvider.swift */,
+			);
+			path = SVProgressHud;
+			sourceTree = "<group>";
+		};
+		AE6F571423399CF90096B6F1 /* KingFisher */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F571523399D120096B6F1 /* KingFisherImageProvider.swift */,
+			);
+			path = KingFisher;
+			sourceTree = "<group>";
+		};
+		AE6F571B2339A6F30096B6F1 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F571C2339A73F0096B6F1 /* UIView+Extensions.swift */,
+				AE6F571E2339A7550096B6F1 /* UITableView+Extensions.swift */,
+				AE6F57202339A91D0096B6F1 /* UITableViewCell+Extensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		AE6F57262339AF950096B6F1 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F5703233991C40096B6F1 /* ArtistSearchView.xib */,
+				AE6F5704233991C40096B6F1 /* ArtistViewCell.xib */,
+			);
+			path = Xibs;
 			sourceTree = "<group>";
 		};
 		AEAEEDCD2336D08B003DF8B7 /* Artists */ = {
@@ -454,6 +534,7 @@
 				AE6F56CF2336F1F80096B6F1 /* ArtistSearchPresenter.swift */,
 				AE6F56F523387FBE0096B6F1 /* ArtistSearchRouter.swift */,
 				AE6F570A233998FC0096B6F1 /* ViewControllers */,
+				AE6F57262339AF950096B6F1 /* Xibs */,
 				AEAEEDD92336DF7E003DF8B7 /* Models */,
 			);
 			path = ArtistSearch;
@@ -696,40 +777,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C89862C2328191A002858F3 /* AppEnvironment.swift in Sources */,
+				AE6F57282339B03A0096B6F1 /* ArtistViewCell.swift in Sources */,
 				AE6F56DF233837EA0096B6F1 /* TrackViewModel.swift in Sources */,
 				AE6F56F8233880D00096B6F1 /* ArtistLookupWireframe.swift in Sources */,
 				4C898630232822FD002858F3 /* AppNavigation.swift in Sources */,
+				AE6F57232339AB6A0096B6F1 /* ArtistSearchVC+UIDelegates.swift in Sources */,
 				4CAB3BEB23294762006E5891 /* AlamofireNetworkProvider.swift in Sources */,
 				AE6F56E6233846BF0096B6F1 /* ArtistLookupContract.swift in Sources */,
 				AE6F56D72336FC2F0096B6F1 /* ArtistViewModel.swift in Sources */,
+				AE6F571F2339A7550096B6F1 /* UITableView+Extensions.swift in Sources */,
+				AE6F57212339A91D0096B6F1 /* UITableViewCell+Extensions.swift in Sources */,
 				AE6F56E8233850DF0096B6F1 /* ArtistInfo.swift in Sources */,
 				AE6F56EC233851AF0096B6F1 /* ArtistInfoViewModel.swift in Sources */,
 				4CAB3BE423292DE6006E5891 /* LookupResponse.swift in Sources */,
 				AE6F56FC233884850096B6F1 /* ArtistSearchWireframe.swift in Sources */,
 				AE6F56DB233837C20096B6F1 /* Track.swift in Sources */,
+				AE6F571823399E930096B6F1 /* ArtistSearchVC.swift in Sources */,
 				4C89863423282583002858F3 /* AppColors.swift in Sources */,
 				4C8986362328405B002858F3 /* AppRouter.swift in Sources */,
 				4CAB3BF023294ECE006E5891 /* ObservableType+Extensions.swift in Sources */,
 				AEAEEDD12336D166003DF8B7 /* ArtistsDataSources.swift in Sources */,
+				AE6F570E233999D50096B6F1 /* HudProvider.swift in Sources */,
 				AEAEEDD82336DB74003DF8B7 /* ArtistSearchContract.swift in Sources */,
 				AEAEEDD52336DA31003DF8B7 /* ArtistRepository.swift in Sources */,
 				AE6F56D52336FC250096B6F1 /* ArtistEntity.swift in Sources */,
 				AE6F56EA233850EC0096B6F1 /* ArtistInfoEntity.swift in Sources */,
 				AE6F56F423386E420096B6F1 /* Collections+Extensions.swift in Sources */,
+				AE6F571D2339A73F0096B6F1 /* UIView+Extensions.swift in Sources */,
 				AE6F56EE23385CF50096B6F1 /* ArtistLookupInteractor.swift in Sources */,
 				AEAEEDD32336D563003DF8B7 /* ArtistsCloudSource.swift in Sources */,
+				AE6F571623399D120096B6F1 /* KingFisherImageProvider.swift in Sources */,
 				4C8985FC2327F86E002858F3 /* AppDelegate.swift in Sources */,
 				AEAEEDDB2336E429003DF8B7 /* Artist.swift in Sources */,
 				4CAB3BE623292DF2006E5891 /* SearchResponse.swift in Sources */,
 				4CAB3BE823293D35006E5891 /* Endpoint.swift in Sources */,
 				AE6F56F623387FBE0096B6F1 /* ArtistSearchRouter.swift in Sources */,
 				AE6F56D02336F1F80096B6F1 /* ArtistSearchPresenter.swift in Sources */,
+				AE6F571A2339A5B40096B6F1 /* ArtistSearchVC+UILogic.swift in Sources */,
+				AE6F57252339AC1E0096B6F1 /* ArtistSearchVC+UIDatasources.swift in Sources */,
 				4C89863B232846F5002858F3 /* NetworkProvider.swift in Sources */,
 				AE6F56FA233881F70096B6F1 /* ArtistLookupRouter.swift in Sources */,
 				4CAB3BE023292D45006E5891 /* API.swift in Sources */,
 				AE6F56CE2336EC3B0096B6F1 /* ArtistSearchInteractor.swift in Sources */,
 				AE6F56DD233837E00096B6F1 /* TrackEntity.swift in Sources */,
 				AE6F56E423383A9D0096B6F1 /* ImageProvider.swift in Sources */,
+				AE6F571323399BA60096B6F1 /* SVProgressHudProvider.swift in Sources */,
 				4C89862E23281A86002858F3 /* AppConstants.swift in Sources */,
 				AE6F56F0233869130096B6F1 /* ArtistLookupPresenter.swift in Sources */,
 			);
