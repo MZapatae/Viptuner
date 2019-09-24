@@ -47,6 +47,11 @@
 		AE6F56F8233880D00096B6F1 /* ArtistLookupWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56F7233880D00096B6F1 /* ArtistLookupWireframe.swift */; };
 		AE6F56FA233881F70096B6F1 /* ArtistLookupRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56F9233881F70096B6F1 /* ArtistLookupRouter.swift */; };
 		AE6F56FC233884850096B6F1 /* ArtistSearchWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6F56FB233884850096B6F1 /* ArtistSearchWireframe.swift */; };
+		AE6F5701233990E40096B6F1 /* ArtistLookupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6F56FF233990E30096B6F1 /* ArtistLookupView.xib */; };
+		AE6F5702233990E40096B6F1 /* TrackViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6F5700233990E30096B6F1 /* TrackViewCell.xib */; };
+		AE6F5705233991C40096B6F1 /* ArtistSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6F5703233991C40096B6F1 /* ArtistSearchView.xib */; };
+		AE6F5706233991C40096B6F1 /* ArtistViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE6F5704233991C40096B6F1 /* ArtistViewCell.xib */; };
+		AE6F5709233996750096B6F1 /* ArtistLookupAssets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6F5708233996750096B6F1 /* ArtistLookupAssets.xcassets */; };
 		AEAEEDD12336D166003DF8B7 /* ArtistsDataSources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD02336D166003DF8B7 /* ArtistsDataSources.swift */; };
 		AEAEEDD32336D563003DF8B7 /* ArtistsCloudSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD22336D563003DF8B7 /* ArtistsCloudSource.swift */; };
 		AEAEEDD52336DA31003DF8B7 /* ArtistRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEAEEDD42336DA31003DF8B7 /* ArtistRepository.swift */; };
@@ -119,6 +124,11 @@
 		AE6F56F7233880D00096B6F1 /* ArtistLookupWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistLookupWireframe.swift; sourceTree = "<group>"; };
 		AE6F56F9233881F70096B6F1 /* ArtistLookupRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistLookupRouter.swift; sourceTree = "<group>"; };
 		AE6F56FB233884850096B6F1 /* ArtistSearchWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistSearchWireframe.swift; sourceTree = "<group>"; };
+		AE6F56FF233990E30096B6F1 /* ArtistLookupView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistLookupView.xib; sourceTree = "<group>"; };
+		AE6F5700233990E30096B6F1 /* TrackViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TrackViewCell.xib; sourceTree = "<group>"; };
+		AE6F5703233991C40096B6F1 /* ArtistSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistSearchView.xib; sourceTree = "<group>"; };
+		AE6F5704233991C40096B6F1 /* ArtistViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ArtistViewCell.xib; sourceTree = "<group>"; };
+		AE6F5708233996750096B6F1 /* ArtistLookupAssets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ArtistLookupAssets.xcassets; sourceTree = "<group>"; };
 		AEAEEDD02336D166003DF8B7 /* ArtistsDataSources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsDataSources.swift; sourceTree = "<group>"; };
 		AEAEEDD22336D563003DF8B7 /* ArtistsCloudSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistsCloudSource.swift; sourceTree = "<group>"; };
 		AEAEEDD42336DA31003DF8B7 /* ArtistRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtistRepository.swift; sourceTree = "<group>"; };
@@ -346,7 +356,9 @@
 				AE6F56ED23385CF50096B6F1 /* ArtistLookupInteractor.swift */,
 				AE6F56EF233869130096B6F1 /* ArtistLookupPresenter.swift */,
 				AE6F56F9233881F70096B6F1 /* ArtistLookupRouter.swift */,
+				AE6F56FE233990B70096B6F1 /* Views */,
 				AE6F56D9233837B10096B6F1 /* Models */,
+				AE6F57072339963F0096B6F1 /* Resources */,
 			);
 			path = ArtistLookup;
 			sourceTree = "<group>";
@@ -380,6 +392,40 @@
 			path = SwiftStandardLib;
 			sourceTree = "<group>";
 		};
+		AE6F56FD2339907B0096B6F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F5703233991C40096B6F1 /* ArtistSearchView.xib */,
+				AE6F5704233991C40096B6F1 /* ArtistViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE6F56FE233990B70096B6F1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F56FF233990E30096B6F1 /* ArtistLookupView.xib */,
+				AE6F5700233990E30096B6F1 /* TrackViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AE6F57072339963F0096B6F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F5708233996750096B6F1 /* ArtistLookupAssets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE6F570A233998FC0096B6F1 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE6F56FD2339907B0096B6F1 /* Views */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		AEAEEDCD2336D08B003DF8B7 /* Artists */ = {
 			isa = PBXGroup;
 			children = (
@@ -407,6 +453,7 @@
 				AE6F56CD2336EC3B0096B6F1 /* ArtistSearchInteractor.swift */,
 				AE6F56CF2336F1F80096B6F1 /* ArtistSearchPresenter.swift */,
 				AE6F56F523387FBE0096B6F1 /* ArtistSearchRouter.swift */,
+				AE6F570A233998FC0096B6F1 /* ViewControllers */,
 				AEAEEDD92336DF7E003DF8B7 /* Models */,
 			);
 			path = ArtistSearch;
@@ -531,7 +578,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C8986062327F86E002858F3 /* LaunchScreen.storyboard in Resources */,
+				AE6F5705233991C40096B6F1 /* ArtistSearchView.xib in Resources */,
+				AE6F5701233990E40096B6F1 /* ArtistLookupView.xib in Resources */,
+				AE6F5709233996750096B6F1 /* ArtistLookupAssets.xcassets in Resources */,
+				AE6F5706233991C40096B6F1 /* ArtistViewCell.xib in Resources */,
 				4C8986322328235F002858F3 /* AppColors.xcassets in Resources */,
+				AE6F5702233990E40096B6F1 /* TrackViewCell.xib in Resources */,
 				4C8986032327F86E002858F3 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
