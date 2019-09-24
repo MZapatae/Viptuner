@@ -30,8 +30,8 @@ class TrackViewCell: UITableViewCell {
     }
     
     private var albumImage: String = "" {
-        didSet {
-            imageProvider?.loadImage(url: albumImage, into: albumImageView)
+        didSet { // fix Dependencie
+            KingFisherImageProvider.shared.loadImage(url: albumImage, into: albumImageView)
         }
     }
     
